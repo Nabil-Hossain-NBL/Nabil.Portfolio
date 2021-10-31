@@ -368,6 +368,10 @@ h6 {
     border: none;
 }
 
+#footer {
+    background-color: black;
+}
+
 @media screen and (max-width: 1200px) {
     .container {
         width: 95%;
@@ -378,8 +382,19 @@ h6 {
     .intro-wrapper {
         grid-template-columns: 1fr;
         grid-template-areas: 'nav-wrapper' 'left-column' 'right-column';
-    }
-    .right-column {
         justify-content: center;
+    }
+    #preview {
+        padding: 14px;
+    }
+    /* .right-column {
+        justify-content: center;
+    } */
+    .about-wrapper {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    #social-img {
+        height: 100%;
+        width: 100%;
     }
 }
