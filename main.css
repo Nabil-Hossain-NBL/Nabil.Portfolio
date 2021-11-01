@@ -106,6 +106,7 @@ h6 {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 3em 30em;
     grid-template-areas: 'nav-wrapper nav-wrapper' 'left-column right-column';
+    margin-top: 1.5rem;
 }
 
 .nav-wrapper {
@@ -330,7 +331,8 @@ h6 {
     font-size: 14px;
 }
 
-#contact-form {
+
+/* #contact-form {
     display: block;
     max-width: 600px;
     margin: 0 auto;
@@ -366,6 +368,28 @@ h6 {
     color: #fff;
     background-color: var(--buttonColor);
     border: none;
+} */
+
+.work-btn {
+    color: var(--mainText);
+    font-family: 'Russo One', sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border: 1px solid var(--borderColor);
+    width: 16em;
+    /* font-size: 1em; */
+    /* line-height: normal; */
+    /* -webkit-transition: all .3s ease-in-out; */
+    /* transition: all .3s ease-in-out, color 0.2s 0.3s; */
+    border-radius: 45px;
+    /* height: auto; */
+    padding: .8em 2.1em;
+}
+
+.wanna-work {
+    padding: 5px 0;
 }
 
 #footer {
