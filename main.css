@@ -226,8 +226,8 @@ h6 {
 
 #preview-shadow {
     background-color: var(--previewShadow);
-    width: 300px;
-    height: 130px;
+    max-width: 300px;
+    height: 180px;
     padding-left: 30px;
     padding-top: 30px;
 }
@@ -408,9 +408,9 @@ h6 {
         grid-template-areas: 'nav-wrapper' 'left-column' 'right-column';
         justify-content: center;
     }
-    #preview {
-        padding: 14px;
-    }
+    /* #preview {
+        padding: 0 21px;
+    } */
     /* .right-column {
         justify-content: center;
     } */
@@ -420,5 +420,17 @@ h6 {
     #social-img {
         height: 100%;
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #preview-shadow {
+        max-width: 300px;
+        height: 180px;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    #preview {
+        width: 280px;
     }
 }
